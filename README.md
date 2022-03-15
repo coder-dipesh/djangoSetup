@@ -19,7 +19,7 @@ $ cd MyProject
 
 Here, What it does is It creates a new directory named "MyProject" and then jump inside it.
 
-###Creating a Python environment
+### Creating a Python environment
  After creating a directory we need to install and setup the virtual environment around it.
  For installing virtaulenv type the command.
 
@@ -39,7 +39,7 @@ And then we need to activate the virtual environment.
 $ env\Scripts\activate    
 ```
 
-###Installing Django 
+### Installing Django 
 
 Now you can see a virtual environment name (env) in the beginning of the command prompt. Then we’ll install the Django in the current directory.
 
@@ -51,7 +51,7 @@ After installing Django if you want to check the installation has succeeded.Exec
 ```
 (env)$  django-admin --version
 ```
-###Creating your first project
+### Creating your first project
 
 After installing Django into your system, we are good to make our first Django web application project. For making the application type the command.
 
@@ -82,7 +82,7 @@ Now to make sure if your project has correctly setuped or not. Jump inside you p
 ```
 (env)$ cd mySite
 ```
-###Running the development server
+### Running the development server
 
 Now to run django project we need to run the following command
 
@@ -108,7 +108,7 @@ Now we can visit our website at http://127.0.0.1:8000/
 Congratulations!! You have successfully setup your first django web application.
 <hr>
 
-###Creating an application
+### Creating an application
 
 This is not the end of it. You can add different apps in your project according to your requirements. To add apps in your project you need to run command.
 
